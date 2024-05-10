@@ -6,14 +6,25 @@
   --laranja1: #EE7A3A;
   --laranja2: #FFB354;
   --fonte-cinza: #725C5C;
+  --font-content: #5C5C5C;
+  --font-login: #333333;
+  --gray-bg: #F8F8F8;
+  --gray-border: #CCCCCC;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -22,93 +33,6 @@ body {
   grid-template-columns: 1fr 5fr;
 }
 
-aside {
-  text-align: center;
-}
-
-aside h1 {
-  background: linear-gradient(to top, var(--laranja1), var(--laranja2));
-  color: var(--background);
-  font-size: 30px;
-  font-weight: bold;
-
-  padding: 1rem;
-}
-
-aside ul {
-  text-align: start;
-}
-
-.icon-slaca {
-  margin: 1.5rem 0;
-}
-
-.paginas {
-  color: var(--font);
-  font-size: 15px;
-}
-
-.paginas li {
-  border-bottom: .125rem solid var(--cinza);
-  padding: 0.5rem 0 0.5rem 1.5rem;
-}
-
-.content {
-  box-shadow: inset .125rem 0 .1rem var(--cinza);
-}
-
-header {
-  background: var(--laranja-claro);
-  display: flex;
-  height: 4.375rem;
-  vertical-align: middle;
-}
-
-header:first-child {
-  padding-left: 2.75rem;
-}
-
-.title {
-  color: var(--fonte-cinza);
-}
-
-.title h5 {
-  font-size: 0.875rem;
-}
-
-.title h4 {
-  font-size: 1.375rem;
-}
-
-.language-button {
-  border: none;
-  outline: none;
-}
-
-.login {
-  display: flex;
-}
-
-.profile {
-  text-align: end;
-}
-
-.quote button {
-  background: var(--laranja);
-}
-
-.presentation {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-}
-
-.presentation h2 {
-  font-size: 1.25rem;
-  color: var(--laranja);
-}
-
-main,
-footer {
-  padding-left: 2.75rem;
-
+button {
+  border: none
 }
