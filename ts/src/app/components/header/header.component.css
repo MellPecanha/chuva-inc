@@ -1,0 +1,74 @@
+header {
+  background: var(--laranja-claro);
+  display: flex;
+  height: 4.375rem;
+  vertical-align: middle;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+header:first-child {
+  padding: .3rem 2.75rem;
+}
+
+header h4,
+header h5 {
+  font-weight: 400;
+}
+
+.title h5 {
+  font-size: 0.875rem;
+  color: var(--fonte-cinza);
+}
+
+.title h4 {
+  font-size: 1.375rem;
+  color: var(--fonte-cinza);
+}
+
+.language-button {
+  border: none;
+  outline: none;
+  background-color: var(--laranja-claro);
+}
+
+.login button {
+  background-color: var(--laranja-claro);
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  max-width: 6rem;
+  max-height: 2.125rem;
+  padding: .4rem;
+  display: flex;
+  align-items: center;
+  margin-right: .5rem;
+}
+
+.login {
+  display: flex;
+  align-items: center
+}
+
+.profile {
+  display: flex;
+  text-align: end;
+}
+
+.profile img {
+  max-width: 1.875rem;
+  max-height: 1.875rem;
+}
+
+.info-login {
+  margin: 0 .5rem
+}
+
+.info-login h4 {
+  font-size: 1rem;
+  color: var(--font-login);
+}
+
+.info-login h5 {
+  font-size: .875rem;
+  color: var(--font-login);
+}
