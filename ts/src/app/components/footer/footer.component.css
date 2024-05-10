@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  margin: 25px;
+  border-top: 2px solid var(--cinza);
+  align-items: center;
+}
+
+footer a {
+  padding: 1rem 1rem 1rem 2.5rem;
+}
+
+footer .galoa-text {
+  padding: 1rem;
+  color: var(--font-content);
+  font-family: "Quicksand", sans-serif;
+}
+
+footer a,
+footer .galoa-text {
+  padding-top: 25px;
+}
