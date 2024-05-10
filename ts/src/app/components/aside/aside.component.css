@@ -1,0 +1,44 @@
+aside {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+aside h1 {
+  background: linear-gradient(to top, var(--laranja1), var(--laranja2));
+  color: var(--background);
+  font-size: 30px;
+  font-weight: bold;
+
+  padding: 1rem;
+}
+
+aside ul {
+  text-align: start;
+}
+
+.icon-slaca {
+  margin: 1.5rem 0;
+}
+
+.paginas {
+  color: var(--font-cinza);
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+.paginas li {
+  border-bottom: .125rem solid var(--cinza);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.paginas li:nth-child(5) {
+  border-left: var(--laranja) solid 5px;
+  background: var(--laranja-claro);
+}
+
+.paginas li:hover {
+  border-left: var(--laranja) solid 5px;
+  background: var(--laranja-claro);
+}
